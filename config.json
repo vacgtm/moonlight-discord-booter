@@ -1,0 +1,9 @@
+{
+    "awaken_id": "channelid for noti when bot comes online [required]",
+    "api_link": "https://roblox.com/{ip}/{time}/{method}/{port}",
+    "suggestion_id": 1294047613301162075,
+    "bugreport_id": 1294047520426692628,
+    "token": "bot token",
+    "failure_status_code": 403,
+    "prefix": "!"
+}
