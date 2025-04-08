@@ -98,7 +98,7 @@ async def on_ready():
     awakening_channel = bot.get_channel(awakening_channelid)
     try:
         if awakening_channel is not None:
-            bklu = create_moonlight_embed("awoken", "moonlight has awoken | start holdin these niggas", "-moonlight solutions-")   
+            bklu = create_moonlight_embed("awoken", "moonlight has awoken | start holdin these fags", "-moonlight solutions-")   
             await awakening_channel.send(embed=bklu)
     except Exception as e:
          print(f"failed to send awakening message | {Exception}")
@@ -121,7 +121,7 @@ o                     __...__     *
     .             `--._    `--'jgs
                        `---~~`                *
             *                   o
-    moonlight solutions | bot online | hold these niggas
+    moonlight solutions | bot online | hold these speds
 """)
 
 
@@ -136,7 +136,7 @@ async def hit(ctx, ip, time, method, port):
         nah = create_moonlight_embed("unsuccessful", "bot failed to connect to api", "this likely means your api is not being hosted or the request isnt arranged correctly | moonlight solutions")
         await ctx.send(embed=nah)
     else: # successful response
-        yeaa = create_moonlight_embed("successful", f"fucked {ip}:{port} for {time} seconds with {method} | hold that bitch nigga")
+        yeaa = create_moonlight_embed("successful", f"fucked {ip}:{port} for {time} seconds with {method} | hold that bitch fag")
         await ctx.send(embed=yeaa)
 
 
